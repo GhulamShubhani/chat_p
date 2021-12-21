@@ -1,0 +1,95 @@
+*{
+    font-size: 62.5%;
+}
+.main_div{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(137, 241, 207);
+}
+.cent_div{
+    padding: 20px;
+    top: 200px;
+    left: 300px;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(247, 250, 245);
+    border-radius: 15px;
+    box-shadow: -10px 5px 25px -5px rgb(8, 8, 8);
+}
+.t1,.t3{
+    font-size: 30px;
+}
+.footer{
+    font-size: 25px;
+}
+.header{font-size: 25px;}
+.msg_cont{
+    position: relative;
+    height: 300px;
+}
+.m1{
+  margin: 0px 0px;  
+}
+.m2{
+    margin: 0px 20px;
+    font-size: 20px;
+}
+.you .mes{
+    min-height: 40px;
+    min-width: 80px;
+    max-width: 300px;
+    border-radius: 20px 0px 0px 20px;
+    margin-left: auto;
+    
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+}
+.other .mes{
+    min-height: 40px;
+    max-width: 80%;
+    min-width: 50%;
+    border-radius: 0px 20px 20px  0px;
+  
+    text-align: start;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.you .m1{
+    font-size: 20px;
+    max-width: 50%;
+    min-height: 35px;
+    border-radius: 20px 0px 0px 20px;
+    
+    background-color: rgb(161, 240, 130);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    padding: 0px 5px;
+}
+
+.other .m1{
+    font-size: 20px;
+    max-width: 50%;
+    min-height: 35px;
+    border-radius: 0px 20px 20px  0px;
+    background-color: rgb(76, 76, 241);
+    padding: 0px 5px;
+    text-align: start;
+    display: flex;
+    flex-direction: row;
+    justify-content: start; 
+}
+
+.you .m2{ 
+    display: flex;
+    flex-direction: row;
+    text-align: end;
+}
+.other .m2{
+    text-align: start;
+    display: flex;
+    flex-direction: row;
+}
